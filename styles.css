@@ -24,6 +24,9 @@ ul {
 #Top\ Div{
     width: 900px;
     margin: 30px auto;
+    background-color: lightcoral;
+    border-width: 5px;
+    border-style: solid;
 }
 
 .title {
