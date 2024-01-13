@@ -13,10 +13,24 @@ ul {
     text-align: left;
 }
 
+@keyframes titleanimation{
+    0% {color: red;}
+    20% {color: orange;}
+    40% {color: yellow;}
+    60% {color: green;}
+    80% {color: blue;}
+    100% {color: purple;}
+}
+
 #Web\ Title{
     font-size: 40px;
     font-style: italic;
     font-palette: dark;
+    animation-name: titleanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 }
 
 #Top\ Div{
