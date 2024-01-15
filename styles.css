@@ -9,8 +9,20 @@ body{
 
 }
 
+.outer_div {
+    display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
     text-align: left;
+}
+
+li {
+    scroll-behavior: smooth;
 }
 
 @keyframes titleanimation{
@@ -40,6 +52,7 @@ ul {
     border-width: 5px;
     border-style: solid;
     border-radius: 30px;
+    display: block;
 }
 
 .title {
@@ -51,6 +64,7 @@ ul {
 p, a {
     font-family: "Arial", serif;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 
@@ -69,6 +83,7 @@ p, a {
 }
 
 img {
+    display: flex;
     width: 1200px;
     border-style: solid;
     border-width: 8px;
